@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">n Tile Puzzle</string>
+
+	<string name="puzzle_size_x_y">{0} x {1}</string>
+	<string name="finished_type_expert_puzzle_in_n_moves">{0} Puzzle {1,choice,0#|1# (Expertenmodus)"} gelöst, in {1} {1,choice,0#Zügen|1#Zug|1&lt;Zügen}.</string>
+	<string name="type_expert_puzzle_n_moves_so_far">{0} Puzzle.\n{1} {1,choice,0#Züge|1#Zug|1&lt;Züge} bisher.{1,choice,0#|1#\nExpertenmodus ist an.}</string>
+	<string name="message_stats_best_avg_plays">{0}\n\nRekord: {1} {1,choice,0#Züge|1#Zug|1&lt;Zügeoves}\nDurchschnitt: {2,number,0.##} Züge\nGespielt: {3}x</string>
+	
+	<string name="label_ok">OK</string>
+	
+	<string name="label_show_numbers_none">Keine</string>
+	<string name="label_show_numbers_some">Manche</string>
+	<string name="label_show_numbers_all">Alle</string>
+	
+	<string name="title_stats">Statistik</string>
+	<string name="title_new_record">Neuer Rekord!</string>
+	<string name="title_solved">Gelöst!</string>
+	<string name="title_select_tiling">Teilung wählen</string>
+	<string name="title_show_numbers">Zahlen anzeigen</string>
+	
+	<string name="menu_new_image">Neues Bild</string>
+	<string name="menu_select_image">Bild auswählen</string>
+	<string name="menu_take_photo">Foto schießen</string>
+	<string name="menu_scramble">Mischen</string>
+	<string name="menu_change_tiling">Teilung wählen</string>
+	<string name="menu_show_numbers">Zahlen anzeigen: {0}</string>
+	<string name="menu_stats">Statistik</string>
+	<string name="menu_about">Info</string>
+	
+	<string name="title_about">n Tile Puzzle</string>
+	<string name="content_about"><a href="http://marian.schedenig.name/projects/ntilepuzzle/">http://marian.schedenig.name/projects/ntilepuzzle/</a>\nCopyright 2013 Marian Schedenig\n\nnCode veröffentlicht unter der GNU General Public License (GPL).\n\nBilder sind von der GNU GPL ausgenommen.</string>
+	
+	<string name="error_could_not_load_image">Konnte Bild nicht laden.</string>
+	<string name="error_could_not_load_image_error">Konnte Bild nicht laden: {0}</string>
+	<string name="error_could_not_create_directory_to_store_photo">Konnte Verzeichnis zum Speichern des Fotos nicht erstellen.</string>
+	
+	<string name="toast_disabled_expert_mode">Durch die Anzeige der Zahlen wurde der Expertenmodus deaktiviert.</string>
+	<string name="toast_not_enabled_expert_mode">Zahlen sind abgeschaltet. Der Expertenmodus wird nach dem nächsten Mischen aktiviert.</string>
+</resources>

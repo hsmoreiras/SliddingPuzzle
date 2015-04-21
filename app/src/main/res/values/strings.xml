@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Puzzle DAM</string>
+
+	<string name="puzzle_size_x_y">{0} x {1}</string>
+	<string name="finished_type_expert_puzzle_in_n_moves">Finished {0} puzzle {1,choice,0#|1# (expert mode)"} in {2} {2,choice,0#moves|1#move|1&lt;moves}.</string>
+	<string name="type_expert_puzzle_n_moves_so_far">{0} puzzle.\n{2} {2,choice,0#moves|1#move|1&lt;moves} so far.{1,choice,0#|1#\nExpert mode is on.}</string>
+	<string name="message_stats_best_avg_plays">{0}\n\nBest: {1} {1,choice,0#moves|1#move|1&lt;moves}\nAverage: {2,number,0.##} moves\nPlays: {3}</string>
+	
+	<string name="label_ok">OK</string>
+	
+	<string name="label_show_numbers_none">Nenhum</string>
+	<string name="label_show_numbers_some">Alguns</string>
+	<string name="label_show_numbers_all">Todos</string>
+	
+	<string name="title_stats">Estatísticas</string>
+	<string name="title_new_record">Novo Registo!</string>
+	<string name="title_solved">Solved!</string>
+	<string name="title_select_tiling">Selecionar tabuleiro</string>
+	<string name="title_show_numbers">Mostrar números</string>
+	
+	<string name="menu_new_image">Nova Imagem</string>
+	<string name="menu_select_image">Selecionar Imagem</string>
+	<string name="menu_take_photo">Tirar Foto</string>
+	<string name="menu_scramble">Baralhar</string>
+	<string name="menu_change_tiling">Mudar tabuleiro</string>
+	<string name="menu_show_numbers">Mostrar números: {0}</string>
+	<string name="menu_stats">Estatísticas</string>
+	<string name="menu_about">Sobre</string>
+
+	<string name="title_about">Puzzle DAM</string>
+	<string name="content_about"><a href="http://marian.schedenig.name/projects/ntilepuzzle/">http://marian.schedenig.name/projects/ntilepuzzle/</a>\nCopyright 2013 Marian Schedenig\n\nCode released under the GNU General Public License (GPL).\n\nImages are excluded from the GNU GPL.</string>
+			
+	<string name="error_could_not_load_image">Não Consegue carregar imagem.</string>
+	<string name="error_could_not_load_image_error">Não Consegue carregar imagem: {0}</string>
+	<string name="error_could_not_create_directory_to_store_photo">Não o consegue criar uma diretoria para armazenar a Foto.</string>
+	
+	<string name="toast_disabled_expert_mode">Turning on numbers has disabled expert mode.</string>
+	<string name="toast_not_enabled_expert_mode">Numbers are off. Expert mode will be enabled when the puzzle is scrambled.</string>
+</resources>
